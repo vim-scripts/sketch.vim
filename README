@@ -1,0 +1,36 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=705
+
+Sketch.vim -- Line drawing/painting using the mouse.
+Based on an idea by Morris.
+
+** sketch.vim has bugs when used with vim7 **
+** I will address this at some point, be patient! **
+** Contact address for bugs is adscriven+sketch at gmail com **
+--Antony 2007-07-15
+
+Freehand
+--------
+Lines, arrows, boxes.
+Automatic arrow head selection.
+Automatic corners and intersections.
+Eraser.
+Paint brush with three different tips.
+
+Visual selection
+----------------
+Drag and drop (transparent & opaque).
+Opaque box.
+Transparent box.
+Box with rounded corners.
+Join/overlay lines.
+Fill with selected brush.
+Quick erase.
+
+Extra maps
+----------
+Flood fill with arbitrary character: <leader>f
+
+If you tell me you like it or provide bug reports, fixes
+then I will tidy it up and improve the code quality and
+write a proper vim help file. Or maybe someone else 
+would like to maintain it ...
